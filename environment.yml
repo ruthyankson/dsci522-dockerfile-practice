@@ -1,0 +1,7 @@
+name: env2
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - numpy
+prefix: C:\Users\ruthy\miniforge3\envs\env2
