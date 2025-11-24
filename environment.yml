@@ -2,6 +2,7 @@ name: env2
 channels:
   - conda-forge
 dependencies:
-  - pandas
-  - numpy
+  - python=3.12.4
+  - pandas=2.3.3 
+  - numpy=2.3.5 
 prefix: C:\Users\ruthy\miniforge3\envs\env2
