@@ -9,8 +9,8 @@ USER root
 COPY conda-linux-64.lock /tmp/conda-linux-64.lock
 
 # Install packages from the explicit lock file
-RUN mamba install --yes --name base --file /tmp/conda-linux-64.lock && \
-    mamba clean --all -f -y
+RUN conda install --yes --name base --file /tmp/conda-linux-64.lock && \
+    conda clean --all -f -y
 
 # Switch back to the default notebook user
 USER ${NB_UID}
